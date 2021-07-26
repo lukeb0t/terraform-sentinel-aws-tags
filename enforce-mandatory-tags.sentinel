@@ -6,7 +6,7 @@ param resource_types default [
   "aws_instance",
 ]
 
-param mandatory_tags default ["ttl", "owner", "se-region", "purpose", "terraform"]
+param mandatory_tags default ["ttl", "owner", "se-region", "purpose", "terraform", "workspace", "slug"]
 
 # Get all AWS Resources with standard tags
 allAWSResourcesWithStandardTags =
